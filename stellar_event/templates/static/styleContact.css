@@ -1,0 +1,63 @@
+﻿body {
+    background-color: #efebeb;
+}
+
+.navbar {
+    background-color: #192342;
+}
+
+.nav-link {
+    color: #efebeb;
+    font-family: 'Footlight MT Light';
+}
+.nav-link:hover {
+    color:cornflowerblue;
+    text-decoration:underline;
+}
+.active {
+    color: cornflowerblue;
+}
+.btn {
+    background-color: #192342;
+    color: #efebeb;
+    float: right;
+    margin-top:10px;
+}
+
+.title {
+    font-family: 'Footlight MT Light';
+    color: #192342;
+    font-weight: bold;
+}
+#form {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-family: 'Times New Roman';
+    color: #192342;
+    border: solid 1px #192342;
+    font-style: italic;
+    
+}
+.form-label {
+    color: #192342;
+    font-weight: bold;
+}
+.bi {
+    color: white;
+    margin-left: 7px;
+}
+.row {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    font-style: italic;
+}
+.quote {
+    background-color: #efebeb;
+    color: #192342;
+    font-size: 20px;
+    opacity:0.8;
+}

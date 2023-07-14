@@ -1,0 +1,157 @@
+﻿body {
+    background-color: #efebeb;
+}
+
+.navbar {
+    background-color: #192342;
+}
+
+.nav-link {
+    color: #efebeb;
+    font-family: 'Footlight MT Light';
+}
+.nav-link:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.active {
+    color: cornflowerblue;
+}
+
+.video-container {
+    position: relative;
+    display: inline-block;
+    opacity: 0.6;
+    width:100%;
+    
+}
+.text-overlay {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    text-shadow: 2px 2px 4px #192342;
+}
+.intro {
+    color: #192342;
+    text-align: center;
+    text-shadow: 2px 2px 4px #00528d;
+    font-weight:bold;
+}
+.title {
+    font-size:100px;
+    font-family: 'Footlight MT Light';
+    color: #192342;
+    font-weight: bold;
+
+}
+@media only screen and (max-width: 500px) {
+    .text-overlay {
+        font-size: 10px;
+        
+    }
+    .intro {
+        font-size: 15px;
+    }
+    .title {
+        font-size: 20px
+    }
+}
+@media only screen and (min-width: 501px) and (max-width:585px) {
+    .text-overlay {
+        font-size: 10px;
+    }
+
+    .intro {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 25px
+    }
+}
+@media only screen and (min-width: 586px) and (max-width:650px) {
+    .text-overlay {
+        font-size: 15px;
+    }
+
+    .intro {
+        font-size: 25px;
+    }
+
+    .title {
+        font-size: 30px
+    }
+}
+@media only screen and (min-width: 651px) and (max-width:950px) {
+    .text-overlay {
+        font-size: 17px;
+    }
+    .intro {
+        font-size: 27px;
+    }
+    .title {
+        font-size: 37px
+    }
+}
+@media only screen and (min-width: 951px) and (max-width:1200px) {
+    .text-overlay {
+        font-size: 25px;
+    }
+
+    .intro {
+        font-size: 35px;
+    }
+
+    .title {
+        font-size: 45px
+    }
+}
+.card {
+    border: 2px solid #192342;
+    box-shadow: 2px 5px 10px #597385;
+}
+
+.card-title {
+    color: #00528d;
+    font-family: 'Footlight MT Light';
+}
+
+.card-text {
+    color: #192342;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+
+
+.btn {
+    background-color: #192342;
+    color: #efebeb;
+    float:right;
+    
+}
+.card-img-top{
+    margin-top:30px;
+}
+.row {
+    margin-top: 30px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+#map-container {
+    margin-top:20px;
+    height: 300px;
+    box-shadow: 2px 5px 10px #597385;
+}
+#footer {
+    background-color: #173449;
+    color: #d6d6d6;
+}
+.bi {
+    color: white;
+    margin-left:7px;
+}

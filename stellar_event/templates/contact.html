@@ -1,0 +1,194 @@
+﻿{% load static %}
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="static https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static 'styleContact.css"/>
+    <title>Stellar Event</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="{% static 'images/logo.png'%}" alt="Logo" style="width:40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar">
+                    <ul class="nav nav-pillars">
+                        <li class="nav-item">
+                            <a class="nav-link " href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about_us.html#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="packages.html">Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h1 class="title">Reserve a meeting</h1>
+            <p>
+                We appreciate your interest in our event services. Please fill out the form below with the details of your event, and our dedicated team will get in touch with you within the next 48 hours to discuss and personalize your event.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col form-control container">
+                <div class="mb-3 mt-3">
+                    <form id="form" class="needs-validation">
+                        <div>
+                            <label class="form-label inputField">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter full name" required />
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback ">Please fill out this field.</div>
+                        </div>
+                        <div>
+                            <label class="form-label inputField">Email</label>
+                            <input type="email" class="form-control " placeholder="Enter email" name="email" required />
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div>
+                            <label class="form-label inputField">Phone Number</label>
+                            <input type="number" class="form-control" placeholder="Enter number" required />
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div>
+                            <label class="form-label inputField">Event Type</label>
+                            <select class="form-control" placeholder="Select the event">
+                                <option value="wedding"> Wedding </option>
+                                <option value="birthday"> Birthday </option>
+                                <option value="babyshower"> Baby Shower </option>
+                                <option value="genderreveal"> Gender Reveal </option>
+                                <option value="corporate"> Corporate event </option>
+                                <option value="nonprof"> Non-Profit Event </option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="form-label inputField">Event Date</label>
+                            <input type="date" class="form-control" required />
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div>
+                            <label class="form-label inputField">Estimated Guest Count</label>
+                            <input type="number" class="form-control" placeholder="Enter the number of guests" />
+                        </div>
+                        <label class="title inputField">Additional Information</label>
+                        <textarea class="form-control" rows="3" name="text"></textarea>
+                        <div>
+                            <input class="btn" type="button" value="Submit" id="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-7 ">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                    </div>
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <img src="{% static 'images/wed.jpg'%}" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <p class="quote">"Love is in the details, and we are here to create the perfect masterpiece."</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'images/birthday.jpg'%}" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <p class="quote">"Celebrate life's milestones with joy, laughter, and unforgettable moments."</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'images/gender2.jpg'%}" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <p class="quote">"Revealing the greatest surprise of all, as we embrace the joy and anticipation of a precious little one."</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'images/proposal2.jpg'%}" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <p class="quote">"Love's greatest question deserves an extraordinary answer. Let us craft a proposal that speaks volumes of your love story."</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'images/fund3.jpg'%}" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <p class="quote">"Empowering communities, one event at a time. Together, let's create a meaningful impact and make dreams come true through the power of fundraising."</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <div class="col">
+                    <a class="nav-link" href="#">Copiright © <label id="year"></label></a>
+                </div>
+                <div class="col">
+                    <div class="d-flex justify-content-end">
+                        <a href="#" class="bi bi-instagram "></a>
+                        <a href="#" class="bi bi-facebook "></a>
+                        <a href="#" class="bi bi-whatsapp "></a>
+                        <a href="#" class="bi bi-twitter "></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+        <script src="{% static 'copyright.js'%}"></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#submit').on('click', function (event) {
+                    var f = $('#form').hasClass("needs-validation");
+                    if (f == true) {
+                        $("#form").removeClass("needs-validation");
+                        $("#form").addClass("was-validated");
+                    }
+                    else {
+                        $("#form").removeClass("was-validated")
+                        $("#form").addClass("needs-validation")
+                    }
+                    var valid = $()
+
+                });
+
+            });
+        </script>
+</body>
+</html>

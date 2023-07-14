@@ -1,0 +1,102 @@
+﻿body {
+    background-color: #efebeb;
+}
+
+.navbar {
+    background-color: #192342;
+}
+.nav-link {
+    color: #efebeb;
+    font-family: 'Footlight MT Light';
+}
+
+.nav-link:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.active {
+    color: cornflowerblue;
+}
+.card {
+    border: 2px solid #192342;
+}
+
+.card-title {
+    background-color: #192342;
+    color: #efebeb;
+    font-family: Century;
+}
+
+.btn {
+    background-color: #192342;
+    color: #efebeb;
+    align-items: center;
+    margin-top:10px;
+    float:right;
+}
+.row {
+    margin-top: 25px;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom:15px;
+}
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column {
+  flex: 25%;
+ 
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.card-header {
+    
+    color: #192342;
+    
+}
+.title {
+    font-family: 'Footlight MT Light';
+    color: #192342;
+    font-weight: bold;
+    text-align:center;
+}
+.bi {
+    color: white;
+    margin-left: 7px;
+
+}
+#blog {
+    border: 3px dotted #192342;
+    padding: 5px;
+    color: #173449;
+    font-weight:bold;
+}
+.card-header {
+    background-color: #173449;
+    color: #efebeb;
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+}

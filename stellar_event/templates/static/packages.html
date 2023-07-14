@@ -1,0 +1,214 @@
+﻿{% load static%}
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'stylePackage.css'%}">
+    <title>Stellar Event</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="{%static 'images/logo.png'%}" alt="Logo" style="width:40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar">
+                    <ul class="nav nav-pillars">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about_us.html#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="packages.html">Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-8 package">
+                <h3 class="title">Basic Event Essentials Package</h3>
+                <p>
+                    In this package are mainly includet Corporate Events:,Non-Profit Events:School or university events,Anniversaries or other events
+                    <ul>
+                        <li class="list">Venue Selection and Coordination:</li>
+                        We help you find the perfect location for your event and handle all the arrangements with the venue.
+                        <li class="list">Event Concept and Theme Development:</li>
+                        We work with you to create a unique and cohesive vision for your event, including the overall concept and theme.
+                        <li class="list">Vendor Recommendations and Management:</li>
+                        We suggest reliable vendors such as caterers, audiovisual experts, and decorators, and handle the coordination with them.
+                        <li class="list">On-Site Event Coordination:</li>
+                        Our team will be present at the event to oversee everything, ensuring that everything runs smoothly and handling any issues that may arise.
+                        <li class="list">Timeline and Logistics Management:</li>
+                        We create a detailed schedule for your event, including all activities and deadlines, and manage the logistics to ensure everything happens on time
+
+                    </ul>
+                </p>
+            </div>
+            <div class="col">
+                <div class="col">
+                    <img src="{% static 'images/birthd8.jpg'%}" style="width:100%" />
+                </div><br />
+                <div class="col">
+                    <img src="{% static 'images/graduation2.jpg'%}" style="width:100%" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h2 class="title">Birthday packages</h2>
+            <div class="col ">
+                <img src="{% static 'images/birthday.jpg'%}" style="width:100%" />
+            </div>
+            <div class="col package">
+                <h5 class="title">Classic Birthday Bash Package:</h5>
+                <p>
+                    <ul>
+                        <li>Venue selection and coordination (indoor or outdoor)</li>
+                        <li>Theme and decor development</li>
+                        <li> Full vendor management (catering, cake, entertainment)</li>
+                        <li>Invitations and guest list management</li>
+                        <li>Games and activities coordination</li>
+                        <li>On-site event coordination for up to 4 hours</li>
+                        Starting price: $1,500
+                    </ul>
+                </p>
+            </div>
+            <div class="col package">
+                <h5 class="title">Fun-filled Kids Birthday Package:</h5>
+                <p>
+                    <ul>
+                        <li>Venue selection and coordination (indoor play area, park, or rented venue)</li>
+                        <li>Themed decorations and party suppliest</li>
+                        <li> Full vendor management (catering, cake, entertainment, face painting)</li>
+                        <li>Invitations and guest list management</li>
+                        <li>Age-appropriate games, activities, and entertainment</li>
+                        <li>Party favors and goody bags</li>
+                        <li>On-site event coordination for up to 4 hours</li>
+                        Starting price: $800
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <h2 class="title">Wedding packages</h2>
+            <div class="col package">
+                <h5 class="title"> Elegant Bliss Package:</h5>
+                <p>
+                    <ul>
+                        <li> Venue selection and coordination</li>
+                        <li>Full vendor management (catering, decor, photographer, DJ)</li>
+                        <li>Wedding day timeline creation and management</li>
+                        <li>On-site wedding coordination for up to 10 hours</li>
+                        <li>Assistance with wedding stationery (invitations, programs)</li>
+                        <li>Basic floral arrangements for the ceremony and reception</li>
+                        <li>Wedding cake selection and coordination</li>
+                        Starting price: $5,000
+                    </ul>
+                </p>
+            </div>
+
+            <div class="col package">
+                <h5 class="title">Deluxe Romance Package:</h5>
+                <p>
+                    <ul>
+                        <li>Venue selection and coordination, including ceremony and reception sites</li>
+                        <li>Theme and decor development</li>
+                        <li> Full vendor management (catering, decor, photographer, videographer, DJ, live entertainment)</li>
+                        <li>Wedding day timeline creation and management</li>
+                        <li>On-site wedding coordination for up to 12 hours</li>
+                        <li> Assistance with wedding stationery (invitations, programs, menu cards)</li>
+                        <li>Premium floral arrangements for the ceremony and reception</li>
+                        <li>Wedding cake selection and coordination</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="col package">
+                <h5 class="title"> Dream Package:</h5>
+                <p>
+                    <ul>
+                        <li>Venue selection and coordination, including ceremony and reception sites</li>
+                        <li>Full vendor management and negotiations (catering, decor, photographer, videographer, DJ, live entertainment, transportation)</li>
+                        <li>Wedding day timeline creation and management</li>
+                        <li>On-site wedding coordination for up to 14 hours with a dedicated team</li>
+                        <li>Assistance with wedding stationery (invitations, programs, menu cards, place cards)</li>
+                        <li>Premium floral arrangements and customized centerpieces for the ceremony and reception</li>
+                        <li>Wedding cake selection and coordination</li>
+                        <li>Pre-wedding event coordination (engagement party, rehearsal dinner)</li>
+                        Starting price: $15,000
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+   <div class="row">
+    <img src="{%static 'images/wed9.jpg'%}" style="width:100%" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2 class="title">Baby packages</h2>
+            <div class="col package">
+                <h5 class="title"> Baby Shower Bliss Package::</h5>
+                <ul>
+                    <li>Venue selection and coordination</li>
+                    <li>Theme and decor development</li>
+                    <li>Full vendor management (catering, cake, floral arrangements, photographer)</li>
+                    <li> Invitations and guest list management </li>
+                    <li>Games and activities coordination</li>
+                    <li>On-site event coordination for up to 4 hours</li>
+                    Starting price: $1,500
+                </ul>
+            </div>
+            <div class="col">
+                <img src="{% static 'images/gender.jpg'%}" style="width:100%" />
+            </div>
+            <div class="col package">
+                <h5 class="title"> Gender Reveal Extravaganza Package:</h5>
+                <ul>
+                    <li>Venue selection and coordination</li>
+                    <li>Gender reveal theme and decor development</li>
+                    <li>Full vendor management (catering, cake, balloon arrangements, photographer, videographer)</li>
+                    <li>Creative gender reveal ideas and execution</li>
+                    <li>Invitations and guest list management</li>
+                    <li>On-site event coordination for up to 4 hours</li>
+                    Starting price: $2,000
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <div class="col">
+                <a class="nav-link" href="#">Copiright © <label id="year"></label></a>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-end">
+                    <a href="#" class="bi bi-instagram "></a>
+                    <a href="#" class="bi bi-facebook "></a>
+                    <a href="#" class="bi bi-whatsapp "></a>
+                    <a href="#" class="bi bi-twitter "></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="{% static 'copyright.js'%}"></script>
+</body>
+</html>
