@@ -61,3 +61,8 @@
     font-size: 20px;
     opacity:0.8;
 }
+.success{
+    color:cornflowerblue;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}

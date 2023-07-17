@@ -2,13 +2,13 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="icon" href="{% static 'images/logo.png'%}" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="{% static 'styleServices.css'">
+    <link rel="stylesheet" href="{% static 'styleServices.css'%}">
     <script src="{% static 'copyright.js' %}"></script>
     <title>Stellar Event</title>
 </head>
@@ -25,19 +25,19 @@
                 <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar">
                     <ul class="nav nav-pillars">
                         <li class="nav-item">
-                            <a class="nav-link " href="home.html">Home</a>
+                            <a class="nav-link " href="/home/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about_us.html#">About Us</a>
+                            <a class="nav-link" href="/about_us/">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="services.html#">Services</a>
+                            <a class="nav-link active" href="/services/">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="packages.html">Packages</a>
+                            <a class="nav-link" href="/packages/">Packages</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
+                            <a class="nav-link" href="/contact/">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -55,7 +55,7 @@
                 <p>
                     Let Stellar Events help you create the perfect proposal that will sweep your partner off their feet. Our proposal organization services are designed to assist you in crafting a romantic and memorable moment that captures the essence of your love story. From intimate surprises to grand gestures, we work closely with you to plan every detail, ensuring that the proposal is tailored to your relationship and preferences. Whether you envision a breathtaking outdoor setting, a private dinner under the stars, or a surprise flash mob, we will bring your vision to life with creativity and precision. With our expertise and attention to detail, you can focus on expressing your love while we take care of the logistics, ensuring that this once-in-a-lifetime moment is flawless and unforgettable.
                 </p>
-                <a href="contact.html" class="btn btn-3d">Reserve a meeting</a>
+                <a href="/contact/" class="btn btn-3d">Reserve a meeting</a>
             </div>
         </div>
         <div class="row">
@@ -64,7 +64,7 @@
                 <p>
                     Celebrate your love story with Stellar Events, where we specialize in creating unforgettable weddings. From intimate garden ceremonies to grand ballroom affairs, our dedicated team is here to bring your vision to life. With meticulous attention to detail, we assist with venue selection, recommend trusted vendors, and curate exquisite decor that reflects your unique style. On your special day, we ensure seamless execution, allowing you to relax and fully immerse yourself in the joy of your celebration. Let us turn your dream wedding into a magical reality, filled with cherished moments that will last a lifetime.
                 </p>
-                <a href="contact.html" class="btn btn-3d">Reserve a meeting</a>
+                <a href="/contact/" class="btn btn-3d">Reserve a meeting</a>
             </div>
             <div class="col">
                 <img class="container-fluid" src="{% static 'images/wed2.jpg'%}" />
@@ -79,7 +79,7 @@
                 <p>
                     Stellar Events specializes in creating unforgettable birthday celebrations for both kids and adults. From whimsical parties filled with enchantment and excitement to sophisticated gatherings that mark special milestones, we bring creativity and meticulous planning to every detail. For children, we transform their dreams into reality with themed decorations, interactive activities, and delicious treats that create a magical atmosphere. For adults, we curate elegant and personalized experiences, from venue selection and stylish decor to delectable catering and entertainment. With our expertise and attention to detail, we ensure that every birthday event is a memorable and joyous occasion, leaving lasting impressions and cherished memories for everyone involved
                 </p>
-                <a href="contact.html" class="btn btn-3d">Reserve a meeting</a>
+                <a href="/contact/" class="btn btn-3d">Reserve a meeting</a>
             </div>
         </div>
         <div class="row">
@@ -88,10 +88,10 @@
                 <p>
                     Celebrate the joy of new beginnings with a beautifully designed baby shower organized by Stellar Events. Whether you're expecting a precious little boy or girl, our team is here to create a memorable and heartfelt event that honors the arrival of your bundle of joy. From choosing the perfect theme and coordinating enchanting decorations to planning fun games and arranging delectable treats, we take care of every detail to ensure a delightful and stress-free experience. Our goal is to create a warm and inviting atmosphere where loved ones can come together to shower you and your growing family with love, support, and well wishes. Let us bring your baby shower dreams to life and create a memorable celebration that will be cherished for years to come.
                 </p>
-                <a href="contact.html" class="btn btn-3d">Reserve a meeting</a>
+                <a href="/contact/" class="btn btn-3d">Reserve a meeting</a>
             </div>
             <div class="col">
-                <img class="container-fluid" src="{%static 'images/bbshower2.jpg'%}" />
+                <img class="container-fluid" src="{% static 'images/bbshower2.jpg'%}" />
             </div>
         </div>
         <div class="row">
@@ -103,7 +103,7 @@
                 <p>
                     Get ready for an exciting and suspenseful gender reveal celebration with Stellar Events. We specialize in creating unforgettable moments that will have everyone on the edge of their seats. Whether you want to keep it intimate or invite all your loved ones, we will help you plan the perfect event to announce the gender of your little one in a unique and memorable way. From creative décor and captivating themes to engaging activities and surprises, we'll work closely with you to bring your vision to life. Get ready to share the excitement and joy as we unveil the big reveal, creating a magical experience that will leave a lasting impression on you and your guests. Let us make your gender reveal a moment to remember, filled with anticipation, love, and unforgettable memories.
                 </p>
-                <a href="contact.html" class="btn btn-3d">Reserve a meeting</a>
+                <a href="/contact/" class="btn btn-3d">Reserve a meeting</a>
             </div>
         </div>
         <div class="row">
@@ -112,7 +112,7 @@
                 <p>
                     Make a significant impact with your fundraising efforts through a meticulously organized event by Stellar Events. We understand the importance of creating an engaging and memorable experience that captures the essence of your cause. From galas and charity auctions to benefit concerts and community fundraisers, we have the expertise to design an event that inspires generosity and support. Our team will work closely with you to understand your goals and tailor the event to align with your organization's mission. We handle every aspect of the planning process, from venue selection and logistics to sponsorship coordination and marketing. Let us bring your fundraising vision to life, and together, we can make a positive impact on your community or cause.
                 </p>
-                <a href="contact.html" class="btn btn-3d">Reserve a meeting</a>
+                <a href="/contact/" class="btn btn-3d">Reserve a meeting</a>
             </div>
             <div class="col">
                 <img class="container-fluid" src="{% static 'images/fund2.jpg'%}" />

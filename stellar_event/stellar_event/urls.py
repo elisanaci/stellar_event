@@ -14,22 +14,22 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 
 from app import views
 from stellar_event import settings
-from app.views import view_contact, view_home, view_about, view_services, view_packages
-
+from app.views import view_contact, view_home, view_about, view_services, view_packages, save_client
 urlpatterns = [
+    path('', view_home),
     path('admin/', admin.site.urls),
+    path('home/', view_home),
+    path('about_us/', view_about),
     path('contact/', view_contact),
-    path('clients/', views.clients_list, name='clients_list'),
-    path('events/<int:event_id>/', views.event_details, name='event_details'),
+    path('packages/', view_packages),
+    path('services/', view_services),
+    path('view-save-client/',save_client),
 
 
-
-
-
-]
-+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
